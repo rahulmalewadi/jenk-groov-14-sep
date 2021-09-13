@@ -1,6 +1,7 @@
 node {
 	stage('SCM') {
 		echo 'gathering code from beluga ...'
+		echo 'using newfeature branch'
 	}
     stage('Build') {
         echo 'Building....'
