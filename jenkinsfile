@@ -1,4 +1,7 @@
 node {
+	stage('SCM') {
+		echo 'gathering code from beluga ...'
+	}
     stage('Build') {
         echo 'Building....'
     }
