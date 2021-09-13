@@ -2,6 +2,7 @@ node {
 	stage('SCM') {
 
 		echo 'gathering code from beluga..'
+		echo 'from newfeature branch..'
 
 		
 
