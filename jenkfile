@@ -1,0 +1,14 @@
+pipeline {
+	agent {
+	     docker {
+		image 'openjdk'
+
+	  }
+	}
+	stages {
+	     stage('verify') {
+		    echo 'hello world'
+		}		
+	}
+
+  }
